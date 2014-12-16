@@ -30,7 +30,7 @@
           access_key_id::string()|undefined|false,
           secret_access_key::string()|undefined|false,
           security_token=undefined::string()|undefined,
-          timeout=10000::timeout(),
+          timeout=1200000::timeout(),
           cloudtrail_raw_result=false::boolean(),
           http_client=lhttpc::erlcloud_httpc:request_fun(),
 
